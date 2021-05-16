@@ -63,17 +63,44 @@ The school summary shows that for THS, the overall change in the % Passing Math,
   
  - Scores by school spending
  
-   There were no noticeable changes to scores by school spending. The percentages stayed the same because they were rounded to the nearest percent.
+   There were no noticeable changes to scores by school spending. The percentages stayed the same because they were rounded to the nearest percent. The attached images show both
+   the original school spending before with full sig figs, showing the less than 1% difference in $630-644 range which is where THS is located, and the refactored version
+   rounding to the nearest percent showing the values being exactly the same.
+  
+  **Scores by school spending before** 
+  
+ ![School spending before](https://github.com/swlim314/School_District_Analysis_Week_4/blob/3fa42f6c2effae1e131211f4a2d850b37e17d96f/Resources/School%20Spending%20before.png) 
+ 
+  **Scores by school spending after** 
+  
+ ![Schooling spending after](https://github.com/swlim314/School_District_Analysis_Week_4/blob/3fa42f6c2effae1e131211f4a2d850b37e17d96f/Resources/School%20Spending%20after.png) 
    
  - Scores by school size
  
-   Similar to above, there were no noticeable changes to scores by school size.
+   Similar to above, there were no noticeable changes to scores by school size when taken into account the version rounded to the nearest percent.
+   
+  **Scores by school size before** 
+  
+ ![School Size before](https://github.com/swlim314/School_District_Analysis_Week_4/blob/a206e6292325be505ba2652b20ccebb1dcf87150/Resources/School%20Size%20before.png) 
+ 
+  **Scores by school size after** 
+  
+ ![School Size after](https://github.com/swlim314/School_District_Analysis_Week_4/blob/a206e6292325be505ba2652b20ccebb1dcf87150/Resources/School%20Size%20after.png) 
    
  - Scores by school type
- - 
    Finally, looking at school type, there were no changes that were noticeable.
+ 
+   **Scores by school type before** 
+  
+ ![School Type before](https://github.com/swlim314/School_District_Analysis_Week_4/blob/fc9dab2434074aee44409e0036956b49347a0bfa/Resources/School%20Type%20before.png) 
+ 
+  **Scores by school type after** 
+  
+ ![School Type after](https://github.com/swlim314/School_District_Analysis_Week_4/blob/fc9dab2434074aee44409e0036956b49347a0bfa/Resources/School%20Type%20after.png) 
+   
  
 ## Summary
 Some of the changes after refactoring the math and reading scores are the addition of NaN to the scores when looking at THS in comparison to other high schools. Additionally,
 when solely removed the 9th grade scores without recalculating the remaining passing rates for 10th through 12th grades, THS took a hit in math, reading, and overall passing
-scores, at almost a 30% difference. 
+scores, at almost a 30% difference. Looking at the dataframes for school spending, school size, school type all showed that there were negligible changes when taking into
+account that they were formatted to be rounded to the nearest percent. However, the included images showed that there were differences in those scores (although all smaller than 1%) that were due to having included 9th grade scores as NaN, and refactoring to take into account only 10th through 12 grade scores.
