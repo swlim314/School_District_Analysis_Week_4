@@ -28,18 +28,20 @@ The school summary shows that for THS, the overall change in the % Passing Math,
 ![School Analysis After](https://github.com/swlim314/School_District_Analysis_Week_4/blob/f14f0b70c01b7951e1bca39056acf9b6649b7461/Resources/School%20Analysis%20After.png)
 
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-  Replacing the ninth graders' math and reading scores, without taking into account refactoring leaves us unable to compare relative performance. The Ninth graders scores for
-  THS show up as NaN, compared to the other values that are shown for the 14 other schools. 
-  
+  Replacing the ninth graders math and reading scores affects THS's performance relative to the other schools an insignificant amount (<1%). Shown below are the before and
+  after of replacing the ninth graders scores as NaN.
+ ![Top School Before](https://github.com/swlim314/School_District_Analysis_Week_4/blob/61f345eff8584a66f65403d53aa96c38ab45e5a5/Resources/Top%20Schools%20Before.png) 
+ ![Top School After](https://github.com/swlim314/School_District_Analysis_Week_4/blob/61f345eff8584a66f65403d53aa96c38ab45e5a5/Resources/Top%20Schools%20After.png)
+ 
 - How does replacing the ninth-grade scores affect the following:
  - Math and reading scores by grade
  
-  There was no change in the math and reading scores after being refactored. This was due to the aforementioned change in percentages for THS after taking into account 10th 
-  through 12th grade scores being less than 1%. The data frames themselves were rounded to the nearest percent, making this difference negligible.
+  Replacing the ninth graders' math and reading scores, without taking into account refactoring leaves us unable to compare relative performance. The Ninth graders scores for
+  THS show up as NaN, compared to the other values that are shown for the 14 other schools. 
   
  - Scores by school spending
  
-   Similar to above, there were no noticeable changes to scores by school spending.
+   There were no noticeable changes to scores by school spending. The percentages stayed the same because they were rounded to the nearest percent.
    
  - Scores by school size
  
