@@ -43,15 +43,19 @@ The school summary shows that for THS, the overall change in the % Passing Math,
   THS show up as NaN, compared to the other values that are shown for the 14 other schools. This carries over for both the Math and Reading scores.
   
    **Math Scores per Grade Before** 
+   
  ![Math Scores before](https://github.com/swlim314/School_District_Analysis_Week_4/blob/cda53ac7c4442f5bba021f055f9a90028b7d5e4f/Resources/Math%20Scores%20before.png) 
  
   **Math Scores per Grade After** 
+  
  ![Math Scores after](https://github.com/swlim314/School_District_Analysis_Week_4/blob/cda53ac7c4442f5bba021f055f9a90028b7d5e4f/Resources/Math%20Scores%20After.png) 
  
   **Reading Scores per Grade Before** 
+  
  ![reading Scores before](https://github.com/swlim314/School_District_Analysis_Week_4/blob/cda53ac7c4442f5bba021f055f9a90028b7d5e4f/Resources/Reading%20Scores%20before.png) 
  
   **Reading Scores per Grade After** 
+  
  ![Reading Scores after](https://github.com/swlim314/School_District_Analysis_Week_4/blob/cda53ac7c4442f5bba021f055f9a90028b7d5e4f/Resources/Reading%20Scores%20after.png) 
  
   
