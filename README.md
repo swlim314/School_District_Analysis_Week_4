@@ -30,15 +30,23 @@ The school summary shows that for THS, the overall change in the % Passing Math,
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
   Replacing the ninth graders' math and reading scores, without taking into account refactoring leaves us unable to compare relative performance. The Ninth graders scores for
   THS show up as NaN, compared to the other values that are shown for the 14 other schools. 
+  
 - How does replacing the ninth-grade scores affect the following:
  - Math and reading scores by grade
+ 
   There was no change in the math and reading scores after being refactored. This was due to the aforementioned change in percentages for THS after taking into account 10th 
   through 12th grade scores being less than 1%. The data frames themselves were rounded to the nearest percent, making this difference negligible.
+  
  - Scores by school spending
+ 
    Similar to above, there were no noticeable changes to scores by school spending.
+   
  - Scores by school size
+ 
    Similar to above, there were no noticeable changes to scores by school size.
+   
  - Scores by school type
+ - 
    Finally, looking at school type, there were no changes that were noticeable.
  
 ## Summary
