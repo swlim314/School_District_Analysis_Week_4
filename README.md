@@ -7,7 +7,7 @@ determing how it affected the data frames that were originally created. After th
 
 ## Results
 
--How is the district summary affected?
+- How is the district summary affected?
 Attached is the original district summary, before 9th grade scores were removed from Thomas High School. The only changes that were noted with the edited data
 is a change in the % Passing Math, % Passing Reading, and % Overall Passing (after editing, -0.2%, -0.3%, -0.1%).
 ![District Analysis Before](https://github.com/swlim314/School_District_Analysis_Week_4/blob/c5ca8edb8799b4a37925aecfacf729847339714b/Resources/District%20Analysis%20Before.png)
@@ -15,7 +15,7 @@ is a change in the % Passing Math, % Passing Reading, and % Overall Passing (aft
 Attached below is the updated data after 9th grade data was removed from THS.
 ![District Analysis After](https://github.com/swlim314/School_District_Analysis_Week_4/blob/c5ca8edb8799b4a37925aecfacf729847339714b/Resources/District%20Analysis%20After.png)
 
--How is the school summary affected?
+- How is the school summary affected?
 The school summary shows that for THS, the overall change in the % Passing Math, % Passing Reading, and % Overall Passing from the original to the 9th grade removed was very signficant, with an almost 30% drop in each of the categories. However, after the 10th-12th grade data was reincorporated and taken into account, the % Passing Math, % Passing Reading, and % Overall Passing ended up being less thant 1% different than the original data. This seems to have been due to the updated calculation with 9th grade scores counted as NaN negatively impacting the overall grades. With the 10-12th grade data being used as the only numbers for the final evaluation, the passing percentages ended up being relatively similar.
 **School Analysis Before**
 ![School Analysis Before](https://github.com/swlim314/School_District_Analysis_Week_4/blob/f14f0b70c01b7951e1bca39056acf9b6649b7461/Resources/School%20Analysis%20Before.png)
@@ -27,11 +27,21 @@ The school summary shows that for THS, the overall change in the % Passing Math,
 **School Analysis taking into account 10th through 12th grade**
 ![School Analysis After](https://github.com/swlim314/School_District_Analysis_Week_4/blob/f14f0b70c01b7951e1bca39056acf9b6649b7461/Resources/School%20Analysis%20After.png)
 
--How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
--How does replacing the ninth-grade scores affect the following:
- -Math and reading scores by grade
- -Scores by school spending
- -Scores by school size
- -Scores by school type
+- How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+  Replacing the ninth graders' math and reading scores, without taking into account refactoring leaves us unable to compare relative performance. The Ninth graders scores for
+  THS show up as NaN, compared to the other values that are shown for the 14 other schools. 
+- How does replacing the ninth-grade scores affect the following:
+ - Math and reading scores by grade
+  There was no change in the math and reading scores after being refactored. This was due to the aforementioned change in percentages for THS after taking into account 10th 
+  through 12th grade scores being less than 1%. The data frames themselves were rounded to the nearest percent, making this difference negligible.
+ - Scores by school spending
+   Similar to above, there were no noticeable changes to scores by school spending.
+ - Scores by school size
+   Similar to above, there were no noticeable changes to scores by school size.
+ - Scores by school type
+   Finally, looking at school type, there were no changes that were noticeable.
  
 ## Summary
+Some of the changes after refactoring the math and reading scores are the addition of NaN to the scores when looking at THS in comparison to other high schools. Additionally,
+when solely removed the 9th grade scores without recalculating the remaining passing rates for 10th through 12th grades, THS took a hit in math, reading, and overall passing
+scores, at almost a 30% difference. 
